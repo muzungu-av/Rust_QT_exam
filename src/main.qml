@@ -7,6 +7,7 @@ ApplicationWindow {
     ListView {
         anchors.fill: parent
         model: app.pluginUrls   // QVariantList автоматически «превращается» в JS-массив
-        delegate: Text { text: modelData }
+        // delegate: Text { text: modelData }
+        delegate: Loader { source: modelData }
     }
 }
