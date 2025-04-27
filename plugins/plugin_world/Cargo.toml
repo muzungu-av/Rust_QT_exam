@@ -9,3 +9,4 @@ crate-type = ["cdylib"]
 [dependencies]
 qmetaobject = "0.2"
 cstr = "0.2"
+libc = "0.2"
